@@ -1,6 +1,6 @@
-# G-Sneaker
+# Kha-CodeTest
 
-This is the instruction for web developer intern assignment at [Golden Owl](https://goldenowl.asia). You will build a simple shopping cart.
+This is my code test for web developer intern application at Golden Owl - Building a website for buying sneakers
 
 ![Screenshot](./screenshots/screenshot.jpg)
 
