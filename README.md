@@ -4,7 +4,9 @@ This is my code test for web developer intern application at Golden Owl - Buildi
 
 ![Screenshot](./screenshots/screenshot.png)
 
-[Live Demo](https://gshoes.vercel.app)
+
+# Link Code Test
+[Link to Web App - Kha's Code Test](https://khacodetest.netlify.app)
 
 # Usage
 
@@ -33,7 +35,7 @@ This is my code test for web developer intern application at Golden Owl - Buildi
 
 - Responsive design (look good on all devices: desktops, tablets & mobile phones).
 - Smooth animations.
-- Deploy the application to heroku.
+- Deploy the application to Netlify instead of Heroku.
 
 # Technical:
 
@@ -54,4 +56,4 @@ App uses front-end frameworks - ReactJS and uses some popular programing languag
 
 # Contributors
 
-- [NguyenTuanKha](https://github.com/TunKeyy)
+- Candidate: [NguyenTuanKha](https://github.com/TunKeyy)
