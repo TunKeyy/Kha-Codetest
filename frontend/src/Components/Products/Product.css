@@ -1,0 +1,131 @@
+.App-card-Top img {
+    width: 50px !important;
+}
+.App-card {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgba(0,0,0,.02), 0 7px 5.4px rgba(0,0,0,.028), 0 12.1px 10.1px rgba(0,0,0,.035), 0 19.8px 18.1px rgba(0,0,0,.042), 0 34.7px 33.8px rgba(0,0,0,.05), 0 81px 81px rgba(0,0,0,.07);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 28px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.App-card::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #f6c90e;
+    top: -20%;
+    left: -50%;
+    z-index: 0;
+}
+.App-card-Item .Item-img{
+    border-radius: 30px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(225, 231, 237);
+}
+.App-card-Item{
+    padding: 40px 0;
+}
+.App-card-Item .Item-img img{
+    display: block;
+    width: 100%;
+    filter: drop-shadow(0 30px 20px rgba(0,0,0,.2));
+    transform: rotate(-24deg);
+    margin-left: -16px;
+}
+.App-card-Top{
+    margin: 12px 0;
+    position: relative;
+}
+.App-card-Title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.App-card-Body{
+    height: calc(100% - 98px);
+    position: relative;
+    overflow-y: scroll;
+    /* scrollbar-width: none; */
+}
+.App-card-Item .Item-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 26px 0 20px;
+    line-height: 1.5;
+}
+.App-card-Item .Item-description{
+    font-size: 13px;
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.App-card-Item .Item-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.App-card-Item .Item-bottom .Item-price{
+    font-size: 18px;
+    font-weight: 700;
+}
+.App-card-Item .Item-bottom .Item-button{
+    cursor: pointer;
+    background-color: #f6c90e;
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: auto;
+    height: 46px;
+    min-width: 46px;
+    padding: 16px 20px;
+    border-radius: 100px;
+    transition: all .25s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.Item-check{
+    background-color: #f6c90e;
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    padding: 16px 20px;
+    border-radius: 100px;
+    transition: all .25s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Item-check img{
+    width: 400%;
+}
