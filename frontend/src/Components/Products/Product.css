@@ -12,6 +12,7 @@
     padding: 0 28px;
     position: relative;
     margin-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .App-card::before{
     content: "";
@@ -128,4 +129,54 @@
 }
 .Item-check img{
     width: 400%;
+}
+
+.Item-name .Cart-item-edit{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: all .25s ease;
+    border-radius: 100%;
+    display: inline-block;
+    align-items: center;
+    margin-left: 0.5rem;
+    justify-content: center;
+    background-color: #f6c90e;
+    transition: .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.Item-name .Cart-item-edit img{
+    width: 16px;
+    height: 16px;
+}
+.Item-name input{
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.Item-name .Cart-item-save-left{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: all .25s ease;
+    border-radius: 100%;
+    display: none;
+    align-items: center;
+    margin-left: 0.5rem;
+    justify-content: center;
+    background-color: #f6c90e;
+    transition: .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.Item-name .Cart-item-save-left img{
+    width: 16px;
+    height: 16px;
 }
